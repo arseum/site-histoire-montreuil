@@ -9,7 +9,7 @@ header{
     background: linear-gradient(#e9bf81,#807f7f) ;
     display: flex;
     margin: 0 auto;                 /* Marges externes */
-    padding: 25px 55px;
+    padding: 25px 55px;             /* Marges internes */
 }
 header h1{
     display: inline;
@@ -68,6 +68,15 @@ nav a.actif:hover{
     z-index: 1;
 }
 
+#histoireIMG{
+    width: 690px;
+    height: 457px;
+    position: relative;
+    left: 200px;
+    bottom: 700px;
+    z-index: 1;
+}
+
 #firstTitle {
     position: relative;
     bottom: 730px;
@@ -90,3 +99,52 @@ nav a.actif:hover{
     bottom: 500px;
     z-index: 0;
 }
+
+#block1{
+    height: 370px;
+    width: 29%;
+    background-color: #679aa2;
+    position: relative;
+    bottom: 1200px;
+    left: 1000px;
+    padding: 2px 30px;
+    margin-top: 2px;
+    border-radius: 15px;
+    color: #192527;
+}
+#block1 h2{
+    margin-bottom: 0;
+    color: #c9eded;
+    font-size: 35px;    
+}
+#block1 h3{
+    margin-bottom: 0;
+    color: #f1c40f;
+    font-size: 35px;
+}
+#block1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: #c9eded;
+    text-align: center;
+    margin: 0 170px ;                  /* Marges externes */
+    padding: 10px 40px;                      /* Marges internes */
+    border-radius: 10px;
+}
+#block1 a:hover{
+    background-color: #807f7f;
+}
+#block1 p{
+    font-size: 19px;
+}
+#triangle-left{
+    width  : 0;
+    height : 0;
+    border-top    : 25px solid transparent;
+    border-bottom : 25px solid transparent;
+    border-right  : 50px solid #679aa2;
+    position: relative;
+    bottom: 160px;
+    right: 70px;
+  }
