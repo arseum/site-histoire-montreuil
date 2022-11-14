@@ -1,0 +1,92 @@
+/* général */
+
+body{
+    width: 99%;
+}
+
+header{
+    width: 60%;
+    background: linear-gradient(#e9bf81,#807f7f) ;
+    display: flex;
+    margin: 0 auto;                 /* Marges externes */
+    padding: 25px 55px;
+}
+header h1{
+    display: inline;
+    flex:auto;
+    text-align: center;
+    font-family: system-ui;
+    font-size:50px;
+}
+
+
+nav{
+    width: 7%;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+nav li{
+    list-style-type: none;
+    margin: 18px 0;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    padding: 0.4em;
+}
+nav a.actif{
+    text-decoration: none;
+    color: black;
+    border: outset ;
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgb(105, 91, 181);
+    padding: 0.4em;
+    border-bottom: #807f7f solid;
+}
+nav a.actif:hover{
+    text-decoration: none;
+    color: black;
+    border: inset ;
+}
+
+
+/* class */
+
+
+
+
+
+/* id */
+
+#mairieIMG{
+    position: relative;
+    left: 650px;
+    z-index: 1;
+}
+
+#firstTitle {
+    position: relative;
+    bottom: 730px;
+    left: 800px;
+    color: white;
+    font-size: 50px;
+    background: linear-gradient(#8fadb989,#d3efef84);
+    width: 38%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.4em;
+    z-index: 2;
+}
+
+#carreVert{
+    width: 60%;
+    height: 800px;
+    background-color: #c9eded;
+    position: relative;
+    bottom: 500px;
+    z-index: 0;
+}
