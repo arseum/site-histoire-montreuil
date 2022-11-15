@@ -53,10 +53,29 @@ nav a.actif:hover{
     border: inset ;
 }
 
+footer {
+    background-color: #a6c4c9;
+    padding-top: 100px;
+    padding-left: 350px;
+}
+
 
 /* class */
 
-
+.boxLien{
+    display: flex;
+    color: #e3ecee;
+}
+.boxLien i{
+    width: 45px;
+    height: 45px;
+    margin-right: 0px;
+    font-size: 36px;
+    color: #16383d;
+}
+.boxLien i:hover{
+    color: #e0f5f5;
+}
 
 
 
