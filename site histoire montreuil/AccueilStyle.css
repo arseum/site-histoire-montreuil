@@ -54,17 +54,22 @@ nav a.actif:hover{
 }
 
 footer {
+    display: flex;
     background-color: #a6c4c9;
     padding-top: 100px;
-    padding-left: 350px;
+    padding-left: 550px;
+    padding-bottom: 20px;
+    color: #e3ecee;
+    font-size: 14px;
 }
 
 
 /* class */
 
 .boxLien{
+    margin-top: 130px;
+    width: 200px;
     display: flex;
-    color: #e3ecee;
 }
 .boxLien i{
     width: 45px;
@@ -74,6 +79,24 @@ footer {
     color: #16383d;
 }
 .boxLien i:hover{
+    color: #e0f5f5;
+}
+
+
+.boxLien2{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 200px;
+    display: flex;
+}
+.boxLien2 i{
+    width: 45px;
+    height: 45px;
+    margin-right: 0px;
+    font-size: 36px;
+    color: #16383d;
+}
+.boxLien2 i:hover{
     color: #e0f5f5;
 }
 
@@ -111,16 +134,16 @@ footer {
 }
 
 #carreVert{
-    width: 60%;
-    height: 800px;
     background-color: #c9eded;
+    z-index: 0;
+    width:60%;
+    height:800px;
     position: relative;
     bottom: 500px;
-    z-index: 0;
 }
 
 #block1{
-    height: 370px;
+    height: auto;
     width: 29%;
     background-color: #679aa2;
     position: relative;
@@ -166,4 +189,12 @@ footer {
     position: relative;
     bottom: 160px;
     right: 70px;
-  }
+}
+
+#contact{
+    margin-left: 50px;
+    width: 30%;
+}
+#contact h2{
+    margin-bottom: 0px;
+}
