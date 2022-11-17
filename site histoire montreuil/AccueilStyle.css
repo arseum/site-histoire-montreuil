@@ -5,6 +5,7 @@ body{
 }
 
 header{
+    display: flex;
     width: 60%;
     background: linear-gradient(#e9bf81,#807f7f) ;
     margin: 0 auto;                 /* Marges externes */
@@ -14,28 +15,17 @@ header h1{
     flex:auto;
     text-align: center;
     font-family: system-ui;
+    font-size: 50px;
 }
 
 @media screen and (max-width:1024px) {
+    header{
+        display: block;
+    }
     header i{
         text-align: center;
         width: 100%;
     }
-}
-
-@media screen and (min-width:1024px) {
-    
-header{
-    display: flex;
-    margin: 0 auto;                 /* Marges externes */
-    padding: 25px 55px;             /* Marges internes */
-}
-header h1{
-    display: inline;
-    flex:auto;
-    font-size:50px;
-}
-
 }
 
 nav{
@@ -185,10 +175,10 @@ table{
 
 #block1{
     height: auto;
-    width: 29%;
+    max-width: 32%;
     background-color: #679aa2;
     position: absolute;
-    top: 1200px;
+    top: 1150px;
     left: 50%;
     padding: 2px 30px;
     margin-top: 2px;
@@ -211,7 +201,7 @@ table{
     font-size: 20px;
     background-color: #c9eded;
     text-align: center;
-    margin: 0 30% ;                  /* Marges externes */
+    margin: 0 30% ;                          /* Marges externes */
     padding: 10px 40px;                      /* Marges internes */
     border-radius: 10px;
 }
@@ -232,13 +222,35 @@ table{
     right: 70px;
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:720px){        /* petit format / telephones */
 
     #block1{
         position:static;
-        width: 70%;
         margin: 10%;
+        max-width: 70%;
         
+    }
+    
+}
+
+@media screen and (max-width:1200px) and (min-width:720px){        /* format moyen */
+
+    #block1{
+        position: absolute;
+        top: 950px;
+        left: 50%;
+        max-width: 39% ;
+    }
+    
+}
+
+@media screen and (max-width:1500px) and (min-width:1200px){        /* grand format */
+
+    #block1{
+        position: absolute;
+        top: 1050px;
+        left: 50%;
+        max-width: 40%;
     }
     
 }
