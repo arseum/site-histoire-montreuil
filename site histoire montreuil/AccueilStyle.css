@@ -7,23 +7,42 @@ body{
 header{
     width: 60%;
     background: linear-gradient(#e9bf81,#807f7f) ;
+    margin: 0 auto;                 /* Marges externes */
+    padding: 25px 55px;             /* Marges internes */
+}
+header h1{
+    flex:auto;
+    text-align: center;
+    font-family: system-ui;
+}
+
+@media screen and (max-width:1024px) {
+    header i{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    
+header{
     display: flex;
     margin: 0 auto;                 /* Marges externes */
-    margin-bottom: 100px;
     padding: 25px 55px;             /* Marges internes */
 }
 header h1{
     display: inline;
     flex:auto;
-    text-align: center;
-    font-family: system-ui;
     font-size:50px;
+}
+
 }
 
 nav{
     width: 7%;
-    position: absolute;
-    left: 70px;
+    position: relative;
+    top: 200px;
+    left: 100px;
 }
 nav li{
     list-style-type: none;
@@ -56,16 +75,14 @@ footer {
     display: flex;
     background-color: #a6c4c9;
     padding-top: 100px;
-    padding-left: 550px;
-    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-bottom: 30px;
     color: #e3ecee;
     font-size: 14px;
 }
 
 main a{
-    z-index: 4;
-    border: solid;
-
+    z-index: 1;
 }
 
 td{
@@ -73,10 +90,17 @@ td{
     margin: 0px;
 }
 
+table{
+    padding-top: 15%;
+    position: relative;
+    left: 20%;
+}
+
+
 /* class */
 
 .boxLien{
-    margin-top: 130px;
+    margin-top: 110px;
     width: 200px;
     display: flex;
 }
@@ -109,33 +133,39 @@ td{
     color: #e0f5f5;
 }
 
-
+.ancre{
+    z-index: 3;
+    margin-left: 40px;
+    position:sticky;
+    top: 80px;
+}
 
 /* id */
 
 #mairieIMG{
-    position: relative;
-    left: 650px;
+    position: absolute;
+    left: 38%;
+    max-width: 60%;
     z-index: 1;
 }
 
 #histoireIMG{
-    width: 690px;
-    height: 457px;
+    max-width: 35%;
+    max-height: 40%;
     position: relative;
-    left: 200px;
-    bottom: 700px;
+    top: 50%;
+    left: 10%;
     z-index: 1;
 }
 
 #firstTitle {
-    position: relative;
-    bottom: 730px;
-    left: 800px;
+    position: absolute;
+    top: 340px;
+    left: 47%;
     color: white;
     font-size: 50px;
     background: linear-gradient(#8fadb989,#d3efef84);
-    width: 38%;
+    max-width: 38%;
     text-align: center;
     border-radius: 10px;
     padding: 0.4em;
@@ -144,20 +174,22 @@ td{
 
 #carreVert{
     background-color: #c9eded;
-    z-index: 0;
-    width:60%;
+    z-index: -1;
+    max-width:60%;
     height:800px;
-    position: relative;
-    bottom: 500px;
+    position:relative;
+    top: 470px;
 }
+
+
 
 #block1{
     height: auto;
     width: 29%;
     background-color: #679aa2;
-    position: relative;
-    bottom: 1200px;
-    left: 1000px;
+    position: absolute;
+    top: 1200px;
+    left: 50%;
     padding: 2px 30px;
     margin-top: 2px;
     border-radius: 15px;
@@ -179,7 +211,7 @@ td{
     font-size: 20px;
     background-color: #c9eded;
     text-align: center;
-    margin: 0 170px ;                  /* Marges externes */
+    margin: 0 30% ;                  /* Marges externes */
     padding: 10px 40px;                      /* Marges internes */
     border-radius: 10px;
 }
@@ -198,6 +230,17 @@ td{
     position: relative;
     bottom: 160px;
     right: 70px;
+}
+
+@media screen and (max-width:720px){
+
+    #block1{
+        position:static;
+        width: 70%;
+        margin: 10%;
+        
+    }
+    
 }
 
 #contact{
