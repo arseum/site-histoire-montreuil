@@ -90,14 +90,14 @@ table{
 /* class */
 
 .boxLien{
-    margin-top: 110px;
-    width: 200px;
+    margin-top: 7%;
+    margin-right: 5%;
+    width: auto;
     display: flex;
 }
 .boxLien i{
     width: 45px;
     height: 45px;
-    margin-right: 0px;
     font-size: 36px;
     color: #16383d;
 }
@@ -115,7 +115,6 @@ table{
 .boxLien2 i{
     width: 45px;
     height: 45px;
-    margin-right: 0px;
     font-size: 36px;
     color: #16383d;
 }
@@ -128,6 +127,16 @@ table{
     margin-left: 40px;
     position:sticky;
     top: 80px;
+}
+
+@media screen and (max-width:800px){
+    footer{
+        display: block;
+    }
+    #contact{
+        margin: 35px auto;
+    }
+
 }
 
 /* id */
@@ -256,11 +265,7 @@ table{
 }
 
 #contact{
-    margin-left: 50px;
-    width: 30%;
-}
-#contact h2{
-    margin-bottom: 0px;
+    max-width: 30%;
 }
 
 #topTable{
