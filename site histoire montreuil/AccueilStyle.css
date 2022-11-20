@@ -28,6 +28,7 @@ header h1{
     }
 }
 
+/* nav Debut */
 nav{
     width: 7%;
     position: relative;
@@ -60,16 +61,61 @@ nav a.actif:hover{
     color: black;
     border: inset ;
 }
+/* nav Fin */
 
+/* footer Debut */
 footer {
     display: flex;
     background-color: #a6c4c9;
-    padding-top: 100px;
-    padding-left: 20%;
-    padding-bottom: 30px;
     color: #e3ecee;
     font-size: 14px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+.boxLien{
+    margin-right: 5%;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+}
+.boxLien i{
+    width: 45px;
+    height: 45px;
+    font-size: 36px;
+    color: #16383d;
+}
+.boxLien i:hover{
+    color: #e0f5f5;
+}
+#contact{
+    max-width: 30%;
+    margin-right: 5%;
+}
+#footerContent{
+    margin: auto;
+    max-width: 80%;
+    max-height: 90%;
+}
+@media screen and (max-width:650px){
+    #contact{
+        margin: 35px auto;
+        max-width: 50%;
+    }
+    #reseauxContact{
+        margin: 35px auto;
+    }
+    .boxLien{
+        margin: 35px auto;
+    }
+}
+@media screen and (min-width:650px){
+    #footerContent{
+        display: flex;
+    }
+}
+/* footer Fin */
 
 main a{
     z-index: 1;
@@ -89,54 +135,11 @@ table{
 
 /* class */
 
-.boxLien{
-    margin-top: 7%;
-    margin-right: 5%;
-    width: auto;
-    display: flex;
-}
-.boxLien i{
-    width: 45px;
-    height: 45px;
-    font-size: 36px;
-    color: #16383d;
-}
-.boxLien i:hover{
-    color: #e0f5f5;
-}
-
-
-.boxLien2{
-    margin-left: 20px;
-    margin-top: 15px;
-    width: 200px;
-    display: flex;
-}
-.boxLien2 i{
-    width: 45px;
-    height: 45px;
-    font-size: 36px;
-    color: #16383d;
-}
-.boxLien2 i:hover{
-    color: #e0f5f5;
-}
-
 .ancre{
     z-index: 3;
     margin-left: 40px;
     position:sticky;
     top: 80px;
-}
-
-@media screen and (max-width:800px){
-    footer{
-        display: block;
-    }
-    #contact{
-        margin: 35px auto;
-    }
-
 }
 
 /* id */
@@ -262,10 +265,6 @@ table{
         max-width: 40%;
     }
     
-}
-
-#contact{
-    max-width: 30%;
 }
 
 #topTable{
