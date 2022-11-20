@@ -121,18 +121,6 @@ main a{
     z-index: 1;
 }
 
-td{
-    padding: 40px;
-    margin: 0px;
-}
-
-table{
-    padding-top: 15%;
-    position: relative;
-    left: 20%;
-}
-
-
 /* class */
 
 .ancre{
@@ -173,6 +161,11 @@ table{
     padding: 0.4em;
     z-index: 2;
 }
+@media screen and (max-width:1024px){
+    #firstTitle {
+        top: 480px;
+    }
+}
 
 #carreVert{
     background-color: #c9eded;
@@ -183,8 +176,7 @@ table{
     top: 470px;
 }
 
-
-
+/* bock 1 Debut */
 #block1{
     height: auto;
     max-width: 32%;
@@ -192,8 +184,7 @@ table{
     position: absolute;
     top: 1150px;
     left: 50%;
-    padding: 2px 30px;
-    margin-top: 2px;
+    padding: 0 30px;
     border-radius: 15px;
     color: #192527;
 }
@@ -216,12 +207,14 @@ table{
     margin: 0 30% ;                          /* Marges externes */
     padding: 10px 40px;                      /* Marges internes */
     border-radius: 10px;
+
 }
 #block1 a:hover{
     background-color: #807f7f;
 }
 #block1 p{
     font-size: 19px;
+    width: 80%;
 }
 #triangle-left{
     width  : 0;
@@ -233,42 +226,54 @@ table{
     bottom: 160px;
     right: 70px;
 }
-
 @media screen and (max-width:720px){        /* petit format / telephones */
-
     #block1{
         position:static;
         margin: 10%;
-        max-width: 70%;
-        
+        padding-top: 4px;
+        padding-bottom: 32px;
+        max-width: 70%; 
     }
-    
+    #triangle-left{
+        display: none;
+    }
 }
-
 @media screen and (max-width:1200px) and (min-width:720px){        /* format moyen */
-
     #block1{
         position: absolute;
         top: 950px;
         left: 50%;
         max-width: 39% ;
     }
-    
 }
-
 @media screen and (max-width:1500px) and (min-width:1200px){        /* grand format */
-
     #block1{
         position: absolute;
         top: 1050px;
         left: 50%;
         max-width: 40%;
     }
-    
 }
+/* bock 1 Fin */
 
+/* tableau Debut */
 #topTable{
     background:#5c889c;
-    color: #bcc1c6;
-    border-bottom: solid #192527;
+    color: #1b1f22;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: system-ui;
 }
+td{
+    padding: 40px;
+    margin: 0px; 
+    font-size: 20px;
+}
+table{
+    margin: 15% auto;
+}
+.borderTable{
+    border-color: #cab641;
+    border-style: dashed;
+}
+/* tableau Fin */
