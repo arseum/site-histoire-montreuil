@@ -264,15 +264,29 @@ footer {
     margin-left: auto;
     margin-right: auto;
     height: 300px;
-    width: 1000px;
+    width: 60%;
     background:linear-gradient(0deg,#7f7f7f7b,#cdcdcd70) ;
+}
+#panneauDefilant h1{
+    text-align: center;
+    height: 15%;
+    margin-top: 7%;
+}
+#panneauDefilant p{
+    text-align: center;
+    width: 40%;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+#zoneTexte{
+    width: 93%;;
 }
 
 #flecheLeft{
     display: flex;
-    border: solid;
     height: 96%;
-    margin: auto 0;
+    margin: auto 1%;
 }
 #flecheLeft i{
     margin: auto 0;
@@ -284,9 +298,8 @@ footer {
 
 #flecheRight{
     display: flex;
-    border: solid;
     height: 96%;
-    margin: auto 0;
+    margin: auto 1%;
 }
 #flecheRight i{
     margin: auto 0;
