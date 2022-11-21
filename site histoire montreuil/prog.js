@@ -46,3 +46,11 @@ function changeRight(){
         window.position = 1;
     }
 }
+
+if (document.readyState === 'complete') {
+    changeLeft();
+}else {
+    document.addEventListener('DOMContentLoaded', function() {
+      changeLeft();
+    });
+}
