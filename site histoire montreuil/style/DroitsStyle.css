@@ -1,0 +1,113 @@
+/* haut/header Debut */
+header{
+    display: flex;
+    width: 60%;
+    background: linear-gradient(#e9bf81,#807f7f) ;
+    margin: 0 auto;                 /* Marges externes */
+    padding: 25px 55px;             /* Marges internes */
+}
+header h1{
+    flex:auto;
+    text-align: center;
+    font-family: system-ui;
+    font-size: 50px;
+}
+@media screen and (max-width:1024px) {
+    header{
+        display: block;
+    }
+    header i{
+        text-align: center;
+        width: 100%;
+    }
+}
+/* haut/header Fin */
+
+/* nav Debut */
+nav{
+    width: 7%;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+nav li{
+    list-style-type: none;
+    margin: 18px 0;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    padding: 0.4em;
+}
+nav a.actif{
+    text-decoration: none;
+    color: black;
+    border: outset ;
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgb(105, 91, 181);
+    padding: 0.4em;
+    border-bottom: #807f7f solid;
+}
+nav a.actif:hover{
+    text-decoration: none;
+    color: black;
+    border: inset ;
+}
+/* nav Fin */
+
+/* footer Debut */
+footer {
+    display: flex;
+    background-color: #a6c4c9;
+    color: #e3ecee;
+    font-size: 14px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.boxLien{
+    margin-right: 5%;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+}
+.boxLien i{
+    width: 45px;
+    height: 45px;
+    font-size: 36px;
+    color: #16383d;
+}
+.boxLien i:hover{
+    color: #e0f5f5;
+}
+#contact{
+    max-width: 30%;
+    margin-right: 5%;
+}
+#footerContent{
+    margin: auto;
+    max-width: 80%;
+    max-height: 90%;
+}
+@media screen and (max-width:650px){
+    #contact{
+        margin: 35px auto;
+        max-width: 50%;
+    }
+    #reseauxContact{
+        margin: 35px auto;
+    }
+    .boxLien{
+        margin: 35px auto;
+    }
+}
+@media screen and (min-width:650px){
+    #footerContent{
+        display: flex;
+    }
+}
+/* footer Fin */
