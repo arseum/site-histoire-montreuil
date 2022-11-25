@@ -177,6 +177,16 @@ footer {
     top: 470px;
 }
 
+#carreOrange{
+    background-color: #eab676;
+    z-index: -1;
+    max-width:30%;
+    height:800px;
+    position: absolute ;
+    top: 20px;
+    right: 500px;
+}
+
 /* bock 1 Debut */
 #block1{
     height: auto;
@@ -265,19 +275,21 @@ footer {
     margin-right: auto;
     height: 300px;
     width: 60%;
-    background:linear-gradient(0deg,#7f7f7f7b,#cdcdcd70) ;
+    background:linear-gradient(0deg,#5b2e2e92,#d3c3c37d) ;
 }
 #panneauDefilant h1{
     text-align: center;
+    font-size: 38px;
+    color: #7fa0aafb;
     height: 15%;
-    margin-top: 7%;
+    margin-top: 6%;
 }
 #panneauDefilant p{
     text-align: center;
-    width: 40%;
+    width: 70%;
     margin-left:auto;
     margin-right: auto;
-    font-size: 25px;
+    font-size: 28px;
 }
 #zoneTexte{
     width: 93%;;
