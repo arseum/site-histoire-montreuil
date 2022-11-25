@@ -287,9 +287,12 @@ footer {
 #panneauDefilant p{
     text-align: center;
     width: 70%;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     font-size: 28px;
+    
+    animation: swapLeft 2s;
+    animation-fill-mode: forwards;
 }
 #zoneTexte{
     width: 93%;;
@@ -344,3 +347,30 @@ table{
 }
 /* tableau Fin */
 
+/* animation */
+@keyframes swapLeft {
+
+    from {
+        margin-left: 60%;
+        width: 40%;
+    }
+
+    100% {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+}
+@keyframes swapRight {
+
+    from {
+        margin-left: 0%;
+        width: 40%;
+    }
+
+    100% {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+}
