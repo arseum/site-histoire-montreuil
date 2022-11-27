@@ -267,6 +267,37 @@ footer {
 }
 /* bock 1 Fin */
 
+/* bock 2 Debut */
+#block2{
+    background-color: #e0f5f5;
+    margin: 23% 0;
+    margin-left: 20%;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-bottom: 4%;
+    max-width: 40%;
+}
+#block2 p{
+    width: 32%;
+    font-size: 18px;
+    margin-bottom: 4%;
+}
+#block2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    background-color: black;
+    text-align: center;
+    padding: 10px 40px;                      /* Marges internes */
+    border-radius: 10px;
+
+}
+#block2 a:hover{
+    background-color: #807f7f;
+}
+    
+/* bock 2 Fin */
+
 /* panneau defilant debut */
 #panneauDefilant{
     display: flex;
