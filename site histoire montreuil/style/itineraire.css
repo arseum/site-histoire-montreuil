@@ -1,0 +1,59 @@
+header{
+    width: 60%;
+    background: linear-gradient(#e9bf81,#807f7f) ;
+    display: flex;
+    margin: 0 auto;                 /* Marges externes */
+    padding: 25px 55px;
+}
+header h1{
+    display: inline;
+    flex:auto;
+    text-align: center;
+    font-family: system-ui;
+}
+nav{
+    margin-top: 15px;
+    text-align: center;    
+    margin-bottom: 15px;
+    position: relative;
+
+}
+nav a{
+    text-decoration: none;
+    color: #716a69;
+    border: outset;
+    padding: 5px;
+    margin: 10px;
+    padding: 0.4em;
+}
+body{
+    background: linear-gradient(#e9d281,#807f7f);
+}
+main article{
+    display: inline;
+
+}
+aside {
+    text-align: left;
+    display: inline;
+}
+#premierDiv{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#img itineraire{
+margin-left: 25px;
+}
+article aside{
+    display:inline;
+    text-align: left;
+}
+article img{
+    margin-top: auto;
+}
+.paragraphe{
+    display: flex;
+    display: inline;
+    text-align: left;
+}
