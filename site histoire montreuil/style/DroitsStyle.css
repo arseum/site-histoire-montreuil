@@ -26,9 +26,9 @@ header h1{
 /* nav Debut */
 nav{
     width: 7%;
-    position: relative;
-    top: 200px;
-    left: 100px;
+    position: sticky;
+    top: 150px;
+    left: 70px;
 }
 nav li{
     list-style-type: none;
@@ -57,6 +57,15 @@ nav a.actif:hover{
     border: inset ;
 }
 /* nav Fin */
+
+/* ancre Debut */
+.ancre{
+    z-index: 3;
+    margin-left: 40px;
+    position:sticky;
+    top: 80px;
+}
+/* ancre Fin */
 
 /* footer Debut */
 footer {
@@ -111,3 +120,47 @@ footer {
     }
 }
 /* footer Fin */
+
+/* article debut */
+#rgpd{
+    border: solid black 3px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 60%;
+
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.452);
+    font-style: italic;
+
+    animation: 3s sponParLaDroite;
+}
+#rgpd p{
+    animation: 3s sponp;
+}
+
+/* article fin */
+
+@keyframes sponParLaDroite {
+
+    from {
+        margin-left: 70%;
+    }
+
+    100% {
+        margin-left: 19%;
+    }
+
+}
+@keyframes sponp {
+
+    from {
+        width: 40%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
