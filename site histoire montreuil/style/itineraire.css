@@ -42,18 +42,25 @@ aside {
     margin-top: 15px;
     margin-left: 15px;
 }
-#img itineraire{
-margin-left: 25px;
+#imgItineraire{
+margin-left: 100px;
 }
 article aside{
     display:inline;
     text-align: left;
+    margin-left: 30px;
+}
+
+.fleche{
+    z-index: 3;
+    margin-left: 40px;
+    position:sticky;
+    top: 80px;
+}
+
+.divPourImage{
+    display: flex;
 }
 article img{
-    margin-top: auto;
-}
-.paragraphe{
-    display: flex;
-    display: inline;
-    text-align: left;
+    margin-top: 25px;
 }
