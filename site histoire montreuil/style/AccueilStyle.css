@@ -269,8 +269,8 @@ footer {
 
 /* bock 2 Debut */
 #block2{
-    background-color: #e0f5f5;
-    margin: 23% 0;
+    background-color: #51bdbd;
+    margin-top: 23%;
     margin-left: 20%;
     padding-top: 3%;
     padding-left: 6%;
@@ -378,7 +378,7 @@ td{
     font-size: 20px;
 }
 table{
-    margin: 15% auto;
+    margin: 8% auto;
 }
 .borderTable{
     border-color: #cab641;
