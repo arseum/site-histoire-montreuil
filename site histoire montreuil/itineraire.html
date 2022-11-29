@@ -1,46 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Itineraire</title>
-  <LINK href ="style/itineraire.css" rel="stylesheet" type="text/css">
+    <LINK href ="style/itineraire.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/db7208b041.js" crossorigin="anonymous"></script>
 </head>
-<header>
 
-    <a href="#"> <!--logo header-->
-        <i class="fa-solid fa-archway fa-7x"></i>
-    </a>
-    
-    <h1><u>Itineraire</u></h1> <!--titre header-->
-
-</header>
-
-<a href="#bas" class="fleche"><i class="fa-solid fa-arrow-down fa-4x"></i></a><!--lien vers bas de page-->
-<nav>
-    <a href="Accueil.html" class="MenuNav">Site_Principal</a>
-    <a href="tineraire.html" class="MenuNav">Itineraire</a>
-    <a href="droits.html" class="MenuNav">RGPD</a>
-</nav>
 <body>
+
+    <header>
+
+        <a href="Accueil.html"> <!--logo header-->
+            <i class="fa-solid fa-archway fa-10x"></i>
+        </a>
+        
+        <h1><u>Itineraire</u></h1> <!--titre header-->
+    
+    </header>
+
+    <nav> <!--menu de navigation-->
+		<ul>
+			<li><a href="Accueil.html" > Acceuil </a></li>
+			<li><a href="#" class="actif"> itineraire </a></li>
+			<li><a href="droits.html"> droits </a></li>
+		</ul>
+	</nav>
+
+    <a href="#bas" class="ancre"><i class="fa-solid fa-arrow-down fa-4x"></i></a><!--lien vers bas de page-->
+    
     <main>
-        <div id="premierDiv">
-            <img src="image/itineraire.png" alt ="image de l'itineraire" height="500px" width="40%" id ="imgItineraire">
-             <aside>
-                <ol>
-                <li>IUT</li></br>
-                <li>Mur à Pêche</li></br>
-                <li>Fresque</li></br>
-                <li>Eglise St Pierre St Paul</li></br>
-                <li>Hommage à la Résistance</li></br>
-                <li>Mairie de Montreuil et la place de Montreuil</li></br>
-                <li>Monument aux morts</li></br>
-                <li> Fresques</li></br>
-                <li>Statue Wang Kequing le calligraphe Fu Mi</li></br>
-                <li>Parc des Beaumonts</li></br>
-                </ol>
-             </aside>
-        </div>
+
+        <h2>la decouverte de l'histoire de Montreuil</h2>
+        
+        <p class="center"><i class="fa-solid fa-landmark fa-2x"></i>  l'iut de montreuil vous invite à vivre une belle épopée 
+            à la découverte de son histoire et de son partimoine culturel.</p>
+
+        <p class="center"> Que vous soyez en famille, en couple ou entre amis, venez découvrir à votre rythme l'histoire de Montreuil et toutes ses
+            richesses le long d’un parcours guidé. notre site web a pour but de vous simplifier l'organisation du guidage lors de votre parcours.</p>
+
+        <img src="image/itineraire.png" alt ="image de l'itineraire" id ="imgItineraire">
+
+        <ol>
+            <li>IUT</li></br>
+            <li>Mur à Pêche</li></br>
+            <li>Fresque</li></br>
+            <li>Eglise St Pierre St Paul</li></br>
+            <li>Hommage à la Résistance</li></br>
+            <li>Mairie de Montreuil et la place de Montreuil</li></br>
+            <li>Monument aux morts</li></br>
+            <li> Fresques</li></br>
+            <li>Statue Wang Kequing le calligraphe Fu Mi</li></br>
+            <li>Parc des Beaumonts</li></br>
+        </ol>
+
         <article>
             <div class="divPourImage">
                 <img src="image//IUT.png" alt="IUT" height="250" width="auto">
@@ -92,20 +106,29 @@
                     <p class="paragraphe">paragraphe </p>
                 </aside>
             </div>
-            <div class="divPourImage">
+
+            <div class="block">
                 <img src ="image//fresque papier.jpg"alt =" calligraphe Fumi" height="250" width="auto">
-                   <aside>
-                    <p class="paragraphe">A l'occasion de la « Quinzaine d'éducation et d'actions contre le racisme et l'antisémitisme » de la ville de
-                        Montreuil, deux fresques ont été peintes pour rendre hommage au chibanis, ces exilés du Maghreb venus en
-                        métropole travailler et participer à la croissance de la France.
+
+                <aside>
+                    <i class="fa-thin fa-horizontal-rule fa-5x"></i>
+
+                    <h3> 8. fresque</h3>
+
+                    <p>A l'occasion de la <i>« Quinzaine d'éducation et d'actions contre le racisme et l'antisémitisme »</i> de la ville de
+                        Montreuil, <strong>deux fresques</strong> ont été peintes pour rendre hommage au <a href="https://fr.wikipedia.org/wiki/Chibani">chibanis</a>, ces exilés du Maghreb venus en
+                        métropole travailler et participer à la croissance de la France.<br><br>
                         Ces hommes toujours très discrets, ont aujourd'hui vieilli et après des années de rudes labeurs, ils se
                         retrouvent souvent esseulés, loin de leur famille restée au pays. Ils se sentent un peu perdus « entre deux
                         rives » pour reprendre les mots ayant servi de titre au documentaire réalisé par Rachid Oujdi. C'est pourquoi la
                         Ville de Montreuil a souhaité rendre un hommage appuyé à ces « hommes aux cheveux blancs » pour faire
                         vivre concrètement le respect de la dignité humaine sans limite, ni condition, notion chère à Montreuil et à ses
                         habitants.</p>
+
+                    <i class="fa-thin fa-horizontal-rule"></i>
                 </aside>
             </div>
+
             <div class="divPourImage">
                 <img src ="image//fresque enface du monument aux morts.jpg"alt =" calligraphe Fumi" height="250" width="auto">
                    <aside>
@@ -129,10 +152,52 @@
             </div>
             
         </article>
+        
     </main>
-</body>
-<a href="#top" class="fleche" id="bas"><i class="fa-solid fa-arrow-up fa-4x"></i></a>
-<footer>
 
-</footer>
+    <a href="#top" class="ancre" id="bas"><i class="fa-solid fa-arrow-up fa-4x"></i></a>
+
+    <footer> <!--gyufv jfcgjfkfk kftfjhnf -->
+
+        <div id="footerContent">
+
+            <div class="boxLien">
+                <a href="https://www.iut.univ-paris8.fr/" target="_blank"><i class="fa-brands fa-internet-explorer"></i></a>
+                <p>site web de l'iut</p>
+            </div>
+
+            <div id="contact">
+                
+                <h2>REALISEZ VOS REVES</h2>
+                <p>
+                    <strong>contactez-nous</strong><br><br>
+                    site web realisé par : arsene Maitre - esteban Marie-louise - gabriel - sofian <br><br>
+                    site crée le 07/11/2022
+                </p>
+
+            </div>
+
+            <div id="reseauxContact">
+
+                <div class="boxLien">
+                    <a href="https://www.instagram.com/accounts/login/?next=%2Fiut_montreuil%2F&source=omni_redirect" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <p>instagram de l'iut</p>
+                </div>
+
+                <div class="boxLien">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>01 48 70 37 00</p>
+                </div>
+
+                <div class="boxLien">
+                    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjvgYHAibD7AhUlSPEDHRvFBIIQ9zB6BAheEAc&url=https%3A%2F%2Ffr.linkedin.com%2Fcompany%2Fd%25C3%25A9partementinformatique-iutdemontreuil&usg=AOvVaw0ZT1nksMsg-lqraqDRbKSL" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <p>Linkedln</p>
+                </div>
+
+            </div>
+        </div>
+
+	</footer>
+</body>
+
 </html>
