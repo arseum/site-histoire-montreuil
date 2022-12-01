@@ -136,6 +136,11 @@ main p{
     margin-left: 15%;
     font-size: 19px;
 }
+#icone{
+    margin-left: 45%;
+    margin-top: 2%;
+    color: #ab7a30;
+}
 /* main Fin */
 
 
@@ -160,6 +165,7 @@ main p{
 /* block Debut */
 .block{
     display: flex;
+    margin-bottom: 10%;
 }
 .block img{
     z-index: -1;
@@ -171,14 +177,55 @@ main p{
     position: relative;
     right: 100px;
     bottom: 10px;
-    background-color: #ffffff;
     border-radius: 15px;
     background-color:#d0e8ec;
+    height: 400px;
 }
 .block a{
     color: #ac7171;
 }
 /* block Fin */
+
+/* blockG Debut */
+.blockG{
+    display: flex;
+    margin-bottom: 10%;
+}
+.blockG img{
+    z-index: -1;
+    width: 150%;
+    height: 600px;
+}
+.blockG aside{
+    padding: 4%;
+    position: relative;
+    left: 150px;
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 15px;
+    background-color:#dcecd0;
+    height: 250px;
+}
+.blockG a{
+    color: #ac7171;
+}
+/* blockG Fin */
+
+#eglise aside{
+    margin-top: 18%;
+    height: 300px;
+}
+#mairie img{
+    height: 650px;
+    width: 600px;
+}
+#mairie aside{
+    height: 300px;
+    width: 350px;
+    right: 200px;
+    background-color: #c9b5a6;
+}
+
 .divPourImage{
     display: flex;
 }
