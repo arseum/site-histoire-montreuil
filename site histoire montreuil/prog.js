@@ -2,48 +2,48 @@ position = 1;
 
 function changeLeft(){
     if (window.position == 1){
-        document.getElementById("titreC").innerHTML="RAPIDE";
-        document.getElementById("paraC").innerHTML="pas de panique ! découvrir l'histoire ne te prendra seulement 1h30 hé oui rapide n'est-ce pas?";
+        document.getElementById("titreC").innerHTML="QUICK";
+        document.getElementById("paraC").innerHTML="Don't panic! Discovering the story will only take you 1h30!!! Hey yes fast isn't it?";
         window.position = 5;
     }else if (window.position == 2){
-        document.getElementById("titreC").innerHTML="EFFICACE";
-        document.getElementById("paraC").innerHTML="qui dit rapide dit efficace !nous avons fait le choix des meilleurs et des plus beaux (évidement)lieux culte de l'histoire.";
+        document.getElementById("titreC").innerHTML="EFFECTIVE";
+        document.getElementById("paraC").innerHTML="Who says fast says efficient ! We have chosen the best and most beautiful (obviously) cult places in history of Montreuil.";
         window.position = 1;
     }else if (window.position == 3){
-        document.getElementById("titreC").innerHTML="AUCUN EFFORT";
-        document.getElementById("paraC").innerHTML="si marcher dans la rue et prendre des magnifique photo est fatiguant ca se serait !";
+        document.getElementById("titreC").innerHTML="NO EFFORTS";
+        document.getElementById("paraC").innerHTML="If walking in the street and take beautiful pictures is tiring it won't be the case here !";
         window.position = 2;
     }else if (window.position == 4){
-        document.getElementById("titreC").innerHTML="DIVERTISSANT";
-        document.getElementById("paraC").innerHTML="entre nous une petite balade pour ta culture de temps en temps ca ne tue pas .et en plus s'a t'occupe et te divertie";
+        document.getElementById("titreC").innerHTML="ENTERTAINING";
+        document.getElementById("paraC").innerHTML="Between us a little walk for your culture from time to time it does not kill and moreover it occupies you and entertains you!";
         window.position = 3;
     }else if (window.position == 5){
-        document.getElementById("titreC").innerHTML="GRATUIT !";
-        document.getElementById("paraC").innerHTML="dans se monde ou tout se paye quoi de mieux qu'une sortie gratuite !enrichie ta culture gratuitement en cliquant ici .";
+        document.getElementById("titreC").innerHTML="FREE !";
+        document.getElementById("paraC").innerHTML="In this world where everything has to be paid for, what better way to enrich your culture for free than by clicking here .";
         window.position = 4;
     }
 }
 
 function changeRight(){
     if (window.position == 1){
-        document.getElementById("titreC").innerHTML="RAPIDE";
-        document.getElementById("paraC").innerHTML="pas de panique ! découvrir l'histoire ne te prendra seulement 1h30 hé oui rapide n'est-ce pas?";
+        document.getElementById("titreC").innerHTML="QUICK";
+        document.getElementById("paraC").innerHTML="Don't panic! Discovering the story will only take you 1h30!!! Hey yes fast isn't it?";
         window.position = 2;
     }else if (window.position == 2){
-        document.getElementById("titreC").innerHTML="EFFICACE";
-        document.getElementById("paraC").innerHTML="qui dit rapide dit efficace !nous avons fait le choix des meilleurs et des plus beaux (évidement)lieux culte de l'histoire.";
+        document.getElementById("titreC").innerHTML="EFFECTIVE";
+        document.getElementById("paraC").innerHTML="Who says fast says efficient ! We have chosen the best and most beautiful (obviously) cult places in history of Montreuil.";
         window.position = 3;
     }else if (window.position == 3){
-        document.getElementById("titreC").innerHTML="AUCUN EFFORT";
-        document.getElementById("paraC").innerHTML="si marcher dans la rue et prendre des magnifique photo est fatiguant ca se serait !";
+        document.getElementById("titreC").innerHTML="NO EFFORTS";
+        document.getElementById("paraC").innerHTML="If walking in the street and take beautiful pictures is tiring it won't be the case here !";
         window.position = 4;
     }else if (window.position == 4){
-        document.getElementById("titreC").innerHTML="DIVERTISSANT";
-        document.getElementById("paraC").innerHTML="entre nous une petite balade pour ta culture de temps en temps ca ne tue pas .et en plus s'a t'occupe et te divertie";
+        document.getElementById("titreC").innerHTML="ENTERTAINING";
+        document.getElementById("paraC").innerHTML="Between us a little walk for your culture from time to time it does not kill and moreover it occupies you and entertains you!";
         window.position = 5;
     }else if (window.position == 5){
-        document.getElementById("titreC").innerHTML="GRATUIT !";
-        document.getElementById("paraC").innerHTML="dans se monde ou tout se paye quoi de mieux qu'une sortie gratuite !enrichie ta culture gratuitement en cliquant ici .";
+        document.getElementById("titreC").innerHTML="FREE !";
+        document.getElementById("paraC").innerHTML="In this world where everything has to be paid for, what better way to enrich your culture for free than by clicking here .";
         window.position = 1;
     }
 }

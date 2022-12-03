@@ -1,0 +1,180 @@
+<!--réel version-->
+<!DOCTYPE html >
+<html lang="fr">
+
+<head>
+	<LINK href="style/AccueilStyle.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/239660ff21.js" crossorigin="anonymous"></script>
+    <script src="prog.js"></script>
+	<title>Acceuil</title>
+</head>
+
+<body> <!--com-->
+
+	<header>
+
+		<a href="#"> <!--logo header-->
+			<i class="fa-solid fa-archway fa-10x"></i>
+		</a>
+		
+		<h1><u>Acceuil</u></h1> <!--titre header-->
+
+	</header>
+
+	<nav> <!--menu de navigation-->
+		<ul>
+			<li><a href="#" class="actif"> Acceuil </a></li>
+			<li><a href="itineraire.html"> itineraire </a></li>
+			<li><a href="droits.html"> droits </a></li>
+		</ul>
+	</nav>
+
+	<main>
+
+        <a href="#bas" class="ancre"><i class="fa-solid fa-arrow-down fa-4x"></i></a><!--lien vers bas de page-->
+	
+        <img src="image/mairie_montreuil.jpg" alt="mairie de montreuil" id="mairieIMG">
+
+        <div id="carreVert" ></div>
+        
+        <h2 id="firstTitle" >decouvre l'histoire de montreuil !</h2>
+
+        <img src="image/téléchargé.jpg" alt="photo deco" id="histoireIMG" >
+
+        <div id="block1"><!--block a droite de l'image :"tu t'interesse a l'histoire?"-->
+
+            <h2>tu t'interesses a l'histoire?</h2>
+
+            <p>tu es quelqu'un de curieux? tu es nouveau a Montreuil et tu
+                cherches à en savoir plus sur l'histoire de ta nouvelle ville ?</p>
+
+            <h3>ca tombe bien nous aussi !</h3>
+
+            <p>on a alors pris la descision de te preparer une petite visite
+                guidé sur notre site web pour que <strong>tu</strong> puisse 
+                decouvrir l'essentiel sur l'histoire et la culture de Montreuil !</p>
+
+            <a href="itineraire.html">Decouvrir</a> <!--lien vers la page itineraires-->
+
+            <div id="triangle-left"></div>
+            
+        </div>
+
+        <div id="panneauDefilant">
+
+            <div id="flecheLeft" onclick="changeLeft()" >
+                <i class="fa-solid fa-angle-left fa-4x"></i>
+            </div>
+
+            <div id="zoneTexte">
+                <h1 id="titreC" >salut</h1>
+                <p id="paraC">blablabla</p>
+            </div>
+
+            <div id="flecheRight" onclick="changeRight()">
+                <i class="fa-solid fa-angle-right fa-4x"></i>
+            </div>
+
+        </div>
+
+        <div id="carreOrange" ></div>
+
+        <div id="block2"> <!--block en bas du panneau defilant-->
+
+            <h2><strong>N'HESITEZ PLUS</strong></h2>
+
+            <h3>nous sommes là pour vous !</h3>
+
+            <p>toutes nos données sont confidentielles et totalement personnelle, verifiée par la rgpd .</p>
+
+            <a href="droits.html">plus d'information</a> <!--lien vers la page droits-->
+            
+        </div>
+
+        <table>
+
+            <tr id="topTable">
+                <td>nom</td>
+                <td>tache effectuer</td>
+            </tr>
+
+            <tr >
+                <td class="borderTable">arsene</td>
+                <td>
+                    -conception de la page acceuil
+                </td>
+            </tr>
+
+            <tr>
+                <td>esteban</td>
+                <td class="borderTable">
+                    -conception de la page itineraire
+                </td>
+            </tr>
+
+            <tr>
+                <td class="borderTable">gabriel</td>
+                <td>
+                    -recherche + redaction du contenu itineraire
+                </td>
+            </tr>
+
+            <tr>
+                <td>sofian</td>
+                <td class="borderTable">
+                    -redaction de la rgpd
+                </td>
+            </tr>
+
+        </table>
+
+        <a href="#top" class="ancre" id="bas"><i class="fa-solid fa-arrow-up fa-4x"></i></a>
+
+	</main>
+
+	<footer> <!--gyufv jfcgjfkfk kftfjhnf -->
+
+        <div id="footerContent">
+
+            <div class="boxLien">
+                <a href="https://www.iut.univ-paris8.fr/" target="_blank"><i class="fa-brands fa-internet-explorer"></i></a>
+                <p>site web de l'iut</p>
+            </div>
+
+            <div id="contact">
+                
+                <h2>REALISEZ VOS REVES</h2>
+                <p>
+                    <strong>contactez-nous</strong><br><br>
+                    site web realisé par : arsene Maitre - esteban Marie-louise - gabriel - sofian <br><br>
+                    site crée le 07/11/2022
+                </p>
+
+            </div>
+
+            <div id="reseauxContact">
+
+                <div class="boxLien">
+                    <a href="https://www.instagram.com/accounts/login/?next=%2Fiut_montreuil%2F&source=omni_redirect" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <p>instagram de l'iut</p>
+                </div>
+
+                <div class="boxLien">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>01 48 70 37 00</p>
+                </div>
+
+                <div class="boxLien">
+                    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjvgYHAibD7AhUlSPEDHRvFBIIQ9zB6BAheEAc&url=https%3A%2F%2Ffr.linkedin.com%2Fcompany%2Fd%25C3%25A9partementinformatique-iutdemontreuil&usg=AOvVaw0ZT1nksMsg-lqraqDRbKSL" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <p>Linkedln</p>
+                </div>
+
+            </div>
+        </div>
+
+	</footer>
+
+</body>
+</html>
