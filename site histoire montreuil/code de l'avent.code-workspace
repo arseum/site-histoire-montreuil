@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../../code de l'avent"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "site-histoire-montreuil"
+    }
+}

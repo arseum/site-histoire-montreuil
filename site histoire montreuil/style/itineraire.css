@@ -182,9 +182,10 @@ main h4{
 
 /* ancre Debut */
 .ancre{
+    z-index: 1;
+    margin-left: 40px;
     position:sticky;
-    top: 25%;
-    left: 94%;
+    top: 28%;
 }
 /* ancre Fin */
 
@@ -195,7 +196,7 @@ main h4{
     margin-bottom: 10%;
 }
 .block img{
-    z-index: -1;
+    z-index: 0;
     width: 300%;
     height: 100%;
 }
@@ -207,6 +208,8 @@ main h4{
     border-radius: 15px;
     background-color:#d0e8ec;
     height: 400px;
+    z-index: 1;
+    font-size: 18px;
 }
 .block a{
     color: #ac7171;
@@ -219,7 +222,7 @@ main h4{
     margin-bottom: 10%;
 }
 .blockG img{
-    z-index: -1;
+    z-index: 0;
     width: 150%;
     height: 600px;
 }
@@ -232,6 +235,8 @@ main h4{
     border-radius: 15px;
     background-color:#dcecd0;
     height: 250px;
+    z-index: 1;
+    font-size: 18px;
 }
 .blockG a{
     color: #ac7171;
@@ -247,6 +252,50 @@ main h4{
     width: 99%;
     margin: 2% auto;
     box-shadow: 4px 4px 5px rgb(179, 177, 177);
+}
+
+#fresque3 img{
+    width: 450px;
+    height: 700px;
+}
+#fresque3 aside{
+    height: auto;
+    background-color: #b4adec;
+}
+
+#parc img{
+    width: 600px;
+    height: 450px;
+}
+#parc aside{
+    height: 270px;
+    background-color: #ecaddc;
+}
+
+#fumi img{
+    width: 700px;
+    height: 550px;
+}
+#fumi aside{
+    height: auto;
+    background-color: #f2f0ed;
+}
+
+#resistance aside{
+    height: auto;
+}
+
+#peche img{
+    width: 550px;
+    height: 500px;
+}
+#peche aside{
+    height: 250px;
+    right: 150px;
+}
+
+#d{
+    margin-bottom: 10%;
 }
 
 #eglise aside{

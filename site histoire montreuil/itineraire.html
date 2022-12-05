@@ -13,7 +13,7 @@
     <header>
 
         <a href="Accueil.html"> <!--logo header-->
-            <i class="fa-solid fa-archway fa-8x"></i>
+            <i class="fa-solid fa-archway fa-8x" title="home"></i>
         </a>
         
         <h1><u>Itineraire</u></h1> <!--titre header-->
@@ -28,9 +28,9 @@
 
     </header>
 
-    <img src="image/hierogliphe0.jpg" id="hierogliphe" alt="hierogliphe">
+    <img src="image/hierogliphe0.jpg" id="hierogliphe" title="hierogliphe">
     
-    <a href="#bas" class="ancre"><i class="fa-solid fa-arrow-down fa-4x"></i></a><!--lien vers bas de page-->
+    <a href="#bas" class="ancre"><i class="fa-solid fa-arrow-down fa-4x" title="bas de page"></i></a><!--lien vers bas de page-->
 
     <main>
 
@@ -47,7 +47,7 @@
 
         <h4 class="soulignement">carte de l'itineraire :</h4>
 
-        <img src="image/itineraire.png" alt ="image de l'itineraire" id ="imgItineraire">
+        <img src="image/itineraire.png" title ="carte de l'itineraire" id ="imgItineraire">
 
         <ol>
             <li>IUT</li>
@@ -69,17 +69,17 @@
         </p>
 
         <!--IUT de Montreuil zone de départ pour l'itineraire-->
-        <img src="image/IUT.png" alt="IUT" id="iut">
+        <img src="image/IUT.png" title="entrée de l'iut Montreuil" id="iut">
 
-        <p class="center"> 
+        <p class="center" id="d"> 
             L’institut Universitaire Technologique de Montreuil créé en 1998 est un IUT proposant 4 formations. Elle contient 750 étudiants une trentaine,
             quarantaine d’enseignants chercheurs et d’enseignants du second degré et plus de 150 enseignants vacataires venant du milieu professionnel.
         </p>
 
         <!--Le mur à peche de Montreuil-->
-        <div class="block">
+        <div class="block" id="peche">
             
-            <img src="#murapeche" alt="mur a peche" height="250">
+            <img src="image/MurAPeche.jpg" title="mur a peche" class="ombre1">
 
             <aside>
                 <h3 class="soulignement"> 2. Mûr à Pêche</h3>
@@ -94,21 +94,32 @@
             
         </div>
         
-        <div class="blockG">
-
-            <img src="#Fresque1" alt="#fresque1" height="250">
+        <div class="blockG" id="fresque3">
 
             <aside>
                 <h3 class="soulignement"> 3. fresque</h3>
 
-                <p>paragraphe </p>
+                <p>Jean Baptiste Colin alias JBC est un artiste français qui utilise des couleurs chaudes et des éléments
+                    végétaux dans ses fresques. Ce choix rappelle l'importance des tropiques dans l'imaginaire de l'artiste, fruit de
+                    ses nombreux voyages en Amérique latine:
+                    Sur le mur de cet immeuble de cité, il nous propose le portrait géant, de 10 étages de hauteur, de Frantz
+                    Fanon.<br><br>
+                    Ibrahim Frantz Fanon, né Frantz Fanon (1925 à Fort-de-France - 1961 à Bethesda dans un hôpital militaire de
+                    la banlieue de Washington aux Etats-Unis), est un psychiatre et essayiste français fortement impliqué dans la
+                    lutte pour l'indépendance de l'Algérie et dans un combat international dressant une solidarité entre « frères »
+                    opprimés. Il est l'un des fondateurs du courant de pensée tiers-mondiste. Dans ses livres les plus connus, il
+                    analyse le processus de décolonisation sous les angles sociologiques, philosophiques et psychiatriques. 
+                </p>
 
             </aside>
+            
+            <img src="image/fresque3.jpg" title="fresque" class="ombre0">
+
         </div>
 
         <div class="block" id="eglise">
 
-            <img src="image/eglise_St_Pierre_St_Paul.jpg" alt="eglise st îerre st paul" height="250" class="ombre1">
+            <img src="image/eglise_St_Pierre_St_Paul.jpg" class="ombre1" title="avant de l'Eglise st-Pierre">
 
             <aside>
                 <h3 class="soulignement"> 4. Eglise Saint-Pierre et Saint-Paul</h3>
@@ -136,12 +147,12 @@
                 </p>    
             </aside>
 
-            <img src="image/hommagealaresistance.jpg" alt="hommage a la resistance" height="250" class="ombre0">
+            <img src="image/hommagealaresistance.jpg" title="hommage a la resistance" class="ombre0">
         </div>
 
         <div class="block" id="mairie">
 
-            <img src="image/mairiestatt(1).jpg" alt="mairie Statue" height="250" class="ombre1">
+            <img src="image/mairiestatt(1).jpg" title="Statue situé devant la Mairie" height="250" class="ombre1">
             <aside>
                 <h3 class="soulignement"> 6. Mairie de Montreuil</h3>
 
@@ -166,19 +177,19 @@
                 </p>
             </aside>
 
-            <img src ="image/monumentauxmorts.jpg" alt =" monument aux morts" height="250" class="ombre0">
+            <img src ="image/monumentauxmorts.jpg" title ="monument aux morts" height="250" class="ombre0">
             
         </div>
 
         <div class="block">
-            <img src ="image/fresquepapier.jpg" alt =" fresque papier" height="250" class="ombre1">
+            <img src ="image/fresquepapier.jpg" title =" fresque papier" height="250" class="ombre1">
 
             <aside>
 
                 <h3 class="soulignement"> 8. fresque</h3>
 
                 <p>A l'occasion de la <i>« Quinzaine d'éducation et d'actions contre le racisme et l'antisémitisme »</i> de la ville de
-                    Montreuil, <strong>deux fresques</strong> ont été peintes pour rendre hommage au <a href="https://fr.wikipedia.org/wiki/Chibani">chibanis</a>, ces exilés du Maghreb venus en
+                    Montreuil, <strong>deux fresques</strong> ont été peintes pour rendre hommage au <a href="https://fr.wikipedia.org/wiki/Chibani" target="_blank">chibanis</a>, ces exilés du Maghreb venus en
                     métropole travailler et participer à la croissance de la France.<br><br>
                     Ces hommes toujours très discrets, ont aujourd'hui vieilli et après des années de rudes labeurs, ils se
                     retrouvent souvent esseulés, loin de leur famille restée au pays. Ils se sentent un peu perdus « entre deux
@@ -189,7 +200,7 @@
             </aside>
         </div>
 
-        <div class="blockG">
+        <div class="blockG" id="fumi">
             
             <aside>
                 <h3 class="soulignement"> 9. statue wang kequing</h3>
@@ -197,7 +208,7 @@
                     végétaux dans ses fresques. Ce choix rappelle l'importance des tropiques dans l'imaginaire de l'artiste, fruit de
                     ses nombreux voyages en Amérique latine:
                     Sur le mur de cet immeuble de cité, il nous propose le portrait géant, de 10 étages de hauteur, de Frantz
-                    Fanon.
+                    Fanon.<br><br>
                     Ibrahim Frantz Fanon, né Frantz Fanon (1925 à Fort-de-France - 1961 à Bethesda dans un hôpital militaire de
                     la banlieue de Washington aux Etats-Unis), est un psychiatre et essayiste français fortement impliqué dans la
                     lutte pour l'indépendance de l'Algérie et dans un combat international dressant une solidarité entre « frères »
@@ -205,15 +216,22 @@
                     analyse le processus de décolonisation sous les angles sociologiques, philosophiques et psychiatriques.
                 </p>
             </aside>
+
+            <img src ="image/FuMi.jpg" title ="Statue wang kequing" class="ombre0">
         </div>
         
-        <div class="block">
+        <div class="block" id="parc">
             
-            <img src =#parcDesBeaumonts alt ="parc Beaumont" height="250">
+            <img src ="image/ParcBeaumont.jpg" title ="parc Beaumont" class="ombre1">
             
             <aside>
-                <h3> 9. Parc des Beaumonts</h3>
-                <p class="paragraphe">paragraphe </p>
+                <h3 class="soulignement"> 9. Parc des Beaumonts</h3>
+                <p>Parc des beaumonts , il est dans la ville de montreuil et assez proche de l’IUT. Si l’envie vous prend d’aller vous
+                    reposer ou vous baladez pendant les pauses (surtout en été). Le parcs est très verdoyant. Crée dans les années 1980
+                    il abrite de nombreux grands arbres et 120 espèces d’oiseaux.<br><br>
+                    Le parc est une zone sous protection Natura 2000 cette
+                    protection a pour but de protéger la diversité biologique des milieux naturelle. 
+                </p>
             </aside>
         </div>
             

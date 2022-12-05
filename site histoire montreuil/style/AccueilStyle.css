@@ -13,7 +13,7 @@ header{
     width: 90%;
     background: #fcfaf2;
     margin: 0 auto;                 /* Marges externes */
-    margin-bottom: 1%;
+    margin-bottom: 8%;
     padding: 25px 55px;             /* Marges internes */
     position: sticky;
     top: 0;
@@ -152,7 +152,7 @@ footer {
     color: white;
     font-size: 50px;
     background: linear-gradient(#8fadb989,#d3efef84);
-    max-width: 38%;
+    max-width: 39%;
     text-align: center;
     border-radius: 10px;
     padding: 0.4em;

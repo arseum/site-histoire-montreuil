@@ -55,48 +55,12 @@ nav a.actif:hover{
 }
 /* haut/header Fin */
 
-
-/* nav Debut */
-nav{
-    width: 7%;
-    position: sticky;
-    top: 150px;
-    left: 70px;
-}
-nav li{
-    list-style-type: none;
-    margin: 18px 0;
-    font-size: 20px;
-}
-nav a{
-    text-decoration: none;
-    color: grey;
-    padding: 0.4em;
-}
-nav a.actif{
-    text-decoration: none;
-    color: black;
-    border: outset ;
-}
-nav a:hover{
-    text-decoration: none;
-    color: rgb(105, 91, 181);
-    padding: 0.4em;
-    border-bottom: #807f7f solid;
-}
-nav a.actif:hover{
-    text-decoration: none;
-    color: black;
-    border: inset ;
-}
-/* nav Fin */
-
 /* ancre Debut */
 .ancre{
-    z-index: 3;
+    z-index: 1;
     margin-left: 40px;
     position:sticky;
-    top: 80px;
+    top: 28%;
 }
 /* ancre Fin */
 
