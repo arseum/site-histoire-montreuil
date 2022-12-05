@@ -13,26 +13,28 @@
     <header>
 
         <a href="Accueil.html"> <!--logo header-->
-            <i class="fa-solid fa-archway fa-10x"></i>
+            <i class="fa-solid fa-archway fa-8x"></i>
         </a>
         
         <h1><u>Itineraire</u></h1> <!--titre header-->
-    
+
+        <nav> <!--menu de navigation-->
+            <ul>
+                <li><a href="Accueil.html" > Accueil </a></li>
+                <li><a href="itineraire.html" class="actif"> Itineraire </a></li>
+                <li><a href="droits.html"> Droits </a></li>
+            </ul>
+        </nav>
+
     </header>
 
-    <nav> <!--menu de navigation-->
-		<ul>
-			<li><a href="Accueil.html" > Accueil </a></li>
-			<li><a href="itineraire.html" class="actif"> Itineraire </a></li>
-			<li><a href="droits.html"> Droits </a></li>
-		</ul>
-	</nav>
-
-    <a href="#bas" class="ancre"><i class="fa-solid fa-arrow-down fa-4x"></i></a><!--lien vers bas de page-->
+    <img src="image/hierogliphe0.jpg" id="hierogliphe">
     
+    <a href="#bas" class="ancre"><i class="fa-solid fa-arrow-down fa-4x"></i></a><!--lien vers bas de page-->
+
     <main>
 
-        <h2>La decouverte de l'histoire de Montreuil</h2>
+        <h2 class="soulignement">La decouverte de l'histoire de Montreuil</h2>
         
         <p class="center">  l'iut de montreuil vous invite à vivre une belle épopée 
             à la découverte de son histoire et de son partimoine culturel.</p>
@@ -40,7 +42,10 @@
         <i class="fa-solid fa-landmark fa-4x" id="icone"></i>
 
         <p class="center"> Que vous soyez en famille, en couple ou entre amis, venez découvrir à votre rythme l'histoire de Montreuil et toutes ses
-            richesses le long d’un parcours guidé. notre site web a pour but de vous simplifier l'organisation du guidage lors de votre parcours.</p>
+            richesses le long d’un parcours guidé. notre site web a pour but de vous simplifier l'organisation du guidage lors de votre parcours.
+        </p>
+
+        <h4 class="soulignement">carte de l'itineraire :</h4>
 
         <img src="image/itineraire.png" alt ="image de l'itineraire" id ="imgItineraire">
 
@@ -57,114 +62,105 @@
             <li>Parc des Beaumonts</li>
         </ol>
 
-        <p>Montreuil la 4ème ville la plus grande d'île de France. La ville est peuplé depuis le néolithique. Le nom de la ville vient du chevalier Morard de Montreuil qui fût le premier seigneur vassal du roi.
+        <p class="center">
+            Montreuil la 4ème ville la plus grande d'île de France. La ville est peuplé depuis le néolithique. Le nom de la ville vient du chevalier Morard de Montreuil qui fût le premier seigneur vassal du roi.
             Au fil des siècles le village prend de plus en plus d'ampleur et devient au XIIème siècle un lieu de prédilection pour le haut clergé.
             Lors de la fin de la seconde guerre mondiale Montreuil fût la première ville a être libéré par plusieurs centaines de membres de la Résistance française.
-
         </p>
+
         <!--IUT de Montreuil zone de départ pour l'itineraire-->
-        <div class="divPourImage">
-            
-            <img src="image/IUT.png" alt="IUT" height="250">
-            <p class="paragraphe"> L’institut Universitaire Technologique de Montreuil créé en 1998 est un IUT proposant 4 formations. Elle contient 750 étudiants une trentaine,
-                    quarantaine d’enseignants chercheurs et d’enseignants du second degré et plus de 150 enseignants vacataires venant du milieu professionnel.
-                    </p>
-        </div>
+        <img src="image/IUT.png" alt="IUT" id="iut">
+
+        <p class="center"> 
+            L’institut Universitaire Technologique de Montreuil créé en 1998 est un IUT proposant 4 formations. Elle contient 750 étudiants une trentaine,
+            quarantaine d’enseignants chercheurs et d’enseignants du second degré et plus de 150 enseignants vacataires venant du milieu professionnel.
+        </p>
 
         <!--Le mur à peche de Montreuil-->
-        <div class="divPourImage">
+        <div class="block">
             
             <img src="#murapeche" alt="mur a peche" height="250">
 
             <aside>
-
-            <i class="fa-thin fa-horizontal-rule fa-5x"></i>
-            <h3> 2. Mûr à Pêche</h3>
+                <h3 class="soulignement"> 2. Mûr à Pêche</h3>
                 <p class="paragraphe">Les murs à pêches créés à partir du  XVIIème siècle se développèrent jusqu’au XIXème Siècle pour couvrir 17millions de fruits.
                     Les murs ont une hauteur d’environs 3mètres. Pour s’adapter au terrain du plateau, les variétés de pêchers étaient 
                     greffées sur des amandiers porte-greffes
                     Les pêches de Montreuil devinrent célèbre car au XVIIème siècle le roi Louis XIV fit importer ces pêches à la cours.
-                        La reine d’Angleterre et même les tsars de Russie firent venir des pêches de Montreuil.
-                        </p>
-                        <i class="fa-thin fa-horizontal-rule"></i>
+                    La reine d’Angleterre et même les tsars de Russie firent venir des pêches de Montreuil.
+                </p>
+
             </aside>
             
         </div>
-        <div class="divPourImage">
-            
-            
+        
+        <div class="blockG">
 
             <img src="#Fresque1" alt="#fresque1" height="250">
 
-                <aside>
+            <aside>
+                <h3 class="soulignement"> 3. fresque</h3>
 
-            <i class="fa-thin fa-horizontal-rule fa-5x"></i>
-                <h3> 3. fresque</h3>
+                <p>paragraphe </p>
 
-                <p class="paragraphe">paragraphe </p>
-
-                <i class="fa-thin fa-horizontal-rule"></i>
             </aside>
         </div>
+
         <div class="block" id="eglise">
 
-            <img src="image/eglise_St_Pierre_St_Paul.jpg" alt="eglise st îerre st paul" height="250">
+            <img src="image/eglise_St_Pierre_St_Paul.jpg" alt="eglise st îerre st paul" height="250" class="ombre0">
 
-                <aside>
+            <aside>
+                <h3 class="soulignement"> 4. Eglise Saint-Pierre et Saint-Paul</h3>
 
-                <i class="fa-thin fa-horizontal-rule fa-5x"></i>
-
-                <h3> 4. Eglise Saint-Pierre et Saint-Paul</h3>
-                <p class="paragraphe"> L'église Saint-Pierre et Saint-Paul est une église catholique
+                <p> 
+                    L'église Saint-Pierre et Saint-Paul est une église catholique
                     La partie la plus ancienne de l’édifice, le chœur, date de la fin du XIIème et du début du XIIIème siècle.
-                        À cette époque, le roi Louis IX et sa mère Blanche de Castille s’y rendent pour différentes cérémonies religieuses.
-                        Le roi Charles V et sa future épouse Jeanne de Bourbon se firent baptisés dans ce lieu.
-                        Louis IX, décida d’embellir  l'église par la conception d'un nouveau chœur.
-                        L’église fût classé monument historique en 1913
-                        </p>
-                <i class="fa-thin fa-horizontal-rule"></i>
+                    À cette époque, le roi Louis IX et sa mère Blanche de Castille s’y rendent pour différentes cérémonies religieuses.
+                    Le roi Charles V et sa future épouse Jeanne de Bourbon se firent baptisés dans ce lieu.
+                    Louis IX, décida d’embellir  l'église par la conception d'un nouveau chœur.
+                    L’église fût classé monument historique en 1913
+                </p>
             </aside>
+            
         </div>
-        <div class="divPourImage">
+        
+        <div class="blockG">
 
 
             <img src="image/hommagealaresistance.jpg" alt="hommage a la resistance" height="250">
 
-                <aside>
-                <i class="fa-thin fa-horizontal-rule fa-5x"></i>
-                <h3> 5. Hommage à la Résistance</h3>
+            <aside>
+                <h3 class="soulignement"> 5. Hommage à la Résistance</h3>
 
-                <p class="paragraphe">La statue Hommage à la Résistance créé par l’artiste americaine Caroline Lee
+                <p>La statue Hommage à la Résistance créé par l’artiste americaine Caroline Lee
                     est une statue érigée en  1982. Elle est faite d’acier inoxydable et de granit noir et blanc.
-                        Elle domine du haut de ses 12m50 la place de la Croix de Chavaux.
-                        </p>
-                <i class="fa-thin fa-horizontal-rule"></i>     
+                    Elle domine du haut de ses 12m50 la place de la Croix de Chavaux.
+                </p>    
             </aside>
         </div>
 
         <div class="block" id="mairie">
 
-            <img src="image/mairiestatt(1).jpg" alt="mairie Statue" height="250">
-                <aside>
-                <i class="fa-thin fa-horizontal-rule fa-5x"></i>
-                <h3> 6. Mairie de Montreuil</h3>
+            <img src="image/mairiestatt(1).jpg" alt="mairie Statue" height="250" class="ombre1">
+            <aside>
+                <h3 class="soulignement"> 6. Mairie de Montreuil</h3>
 
-                <p class="paragraphe">Au début du XIXe siècle, le siège de la municipalité est hébergé dans une maison communale ; en 1825, naît un projet d'acquisition de la maison Maupas,
-                        rue du Milieu (rue Victor-Hugo) pour la transformer en hôtel de mairie ; en 1840, la maison, acquise de la veuve Maupas, est aménagée par l'architecte Molinos (elle abrite aussi la gendarmerie).
-                        En 1852, un arrêté est pris pour la création de la place Girard, vaste place de plan carré entourée de quatre rangs de marronniers.
-                        En 1858, un terrain est acquis par la ville sur lequel Claude Naissant (1801-1879) , architecte du département de la Seine et de l'arrondissement de Sceaux, construit une mairie
-                        Entre 1932 et 1934, un nouvel hôtel de ville est édifié ;
-                        dans un premier temps, par souci d'économie, l'ancien bâtiment est conservé, qui constitue le corps central du nouvel édifice. Finalement,
-                            le chantier s'avérant trop difficile, l'ancienne mairie est détruite.
-                    </p>
-                <i class="fa-thin fa-horizontal-rule"></i>
+                <p>Au début du XIXe siècle, le siège de la municipalité est hébergé dans une maison communale ; en 1825, naît un projet d'acquisition de la maison Maupas,
+                    rue du Milieu (rue Victor-Hugo) pour la transformer en hôtel de mairie ; en 1840, la maison, acquise de la veuve Maupas, est aménagée par l'architecte Molinos (elle abrite aussi la gendarmerie).
+                    En 1852, un arrêté est pris pour la création de la place Girard, vaste place de plan carré entourée de quatre rangs de marronniers.</br></br>
+                    En 1858, un terrain est acquis par la ville sur lequel Claude Naissant (1801-1879) , architecte du département de la Seine et de l'arrondissement de Sceaux, construit une mairie
+                    Entre 1932 et 1934, un nouvel hôtel de ville est édifié ;
+                    dans un premier temps, par souci d'économie, l'ancien bâtiment est conservé, qui constitue le corps central du nouvel édifice. Finalement,
+                    le chantier s'avérant trop difficile, l'ancienne mairie est détruite.
+                </p>    
             </aside>
         </div>
 
         <div class="blockG">
 
             <aside>
-                <h3> 7. Monument aux morts</h3>
+                <h3 class="soulignement"> 7. Monument aux morts</h3>
                 <p>Le monument aux morts fût Inaugurée en octobre 1927, cette oeuvre est due à l'architecte Albert Tournaire et au sculpteur Charles Breton.
                     Il rend hommage aux héros et martyrs des 2 guerres mondiales.
                     Au centre se trouve une femme ailée symbole de la victoire. 
@@ -176,12 +172,11 @@
         </div>
 
         <div class="block">
-            <img src ="image/fresquepapier.jpg" alt =" fresque papier" height="250">
+            <img src ="image/fresquepapier.jpg" alt =" fresque papier" height="250" class="ombre0">
 
             <aside>
-                <i class="fa-thin fa-horizontal-rule fa-5x"></i>
 
-                <h3> 8. fresque</h3>
+                <h3 class="soulignement"> 8. fresque</h3>
 
                 <p>A l'occasion de la <i>« Quinzaine d'éducation et d'actions contre le racisme et l'antisémitisme »</i> de la ville de
                     Montreuil, <strong>deux fresques</strong> ont été peintes pour rendre hommage au <a href="https://fr.wikipedia.org/wiki/Chibani">chibanis</a>, ces exilés du Maghreb venus en
@@ -192,15 +187,14 @@
                     Ville de Montreuil a souhaité rendre un hommage appuyé à ces « hommes aux cheveux blancs » pour faire
                     vivre concrètement le respect de la dignité humaine sans limite, ni condition, notion chère à Montreuil et à ses
                     habitants.</p>
-
-                <i class="fa-thin fa-horizontal-rule"></i>
             </aside>
         </div>
 
         <div class="blockG">
             
             <aside>
-                <p class="paragraphe">Jean Baptiste Colin alias JBC est un artiste français qui utilise des couleurs chaudes et des éléments
+                <h3 class="soulignement"> 9. statue wang kequing</h3>
+                <p>Jean Baptiste Colin alias JBC est un artiste français qui utilise des couleurs chaudes et des éléments
                     végétaux dans ses fresques. Ce choix rappelle l'importance des tropiques dans l'imaginaire de l'artiste, fruit de
                     ses nombreux voyages en Amérique latine:
                     Sur le mur de cet immeuble de cité, il nous propose le portrait géant, de 10 étages de hauteur, de Frantz
@@ -209,20 +203,18 @@
                     la banlieue de Washington aux Etats-Unis), est un psychiatre et essayiste français fortement impliqué dans la
                     lutte pour l'indépendance de l'Algérie et dans un combat international dressant une solidarité entre « frères »
                     opprimés. Il est l'un des fondateurs du courant de pensée tiers-mondiste. Dans ses livres les plus connus, il
-                    analyse le processus de décolonisation sous les angles sociologiques, philosophiques et psychiatriques.</p>
+                    analyse le processus de décolonisation sous les angles sociologiques, philosophiques et psychiatriques.
+                </p>
             </aside>
-            <img src ="image/fresqueenfacedumonumentauxmorts.jpg" alt =" calligraphe Fumi">
         </div>
         
-        <div class="divPourImage">
+        <div class="block">
             
             <img src =#parcDesBeaumonts alt ="parc Beaumont" height="250">
-                <aside>
-                <i class="fa-thin fa-horizontal-rule fa-5x"></i>
-
+            
+            <aside>
                 <h3> 9. Parc des Beaumonts</h3>
                 <p class="paragraphe">paragraphe </p>
-                <i class="fa-thin fa-horizontal-rule"></i>
             </aside>
         </div>
             

@@ -10,34 +10,21 @@ main a{
 /* haut/header Debut */
 header{
     display: flex;
-    width: 60%;
-    background: linear-gradient(#e9bf81,#807f7f) ;
+    width: 90%;
+    background: #fcfaf2;
     margin: 0 auto;                 /* Marges externes */
+    margin-bottom: 1%;
     padding: 25px 55px;             /* Marges internes */
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 5px 5px rgb(163, 144, 144);
+    z-index: 6;
 }
 header h1{
     flex:auto;
     text-align: center;
     font-family: system-ui;
-    font-size: 50px;
-}
-@media screen and (max-width:1024px) {
-    header{
-        display: block;
-    }
-    header i{
-        text-align: center;
-        width: 100%;
-    }
-}
-/* haut/header Fin */
-
-/* nav Debut */
-nav{
-    width: 7%;
-    position: relative;
-    top: 200px;
-    left: 100px;
+    font-size: 40px;
 }
 nav li{
     list-style-type: none;
@@ -64,8 +51,17 @@ nav a.actif:hover{
     text-decoration: none;
     color: black;
     border: inset ;
+}   
+@media screen and (max-width:1024px) {
+    header{
+        display: block;
+    }
+    header i{
+        text-align: center;
+        width: 100%;
+    }
 }
-/* nav Fin */
+/* haut/header Fin */
 
 /* footer Debut */
 footer {
@@ -126,7 +122,7 @@ footer {
     z-index: 3;
     margin-left: 40px;
     position:sticky;
-    top: 80px;
+    top: 28%;
 }
 /* ancre Fin */
 

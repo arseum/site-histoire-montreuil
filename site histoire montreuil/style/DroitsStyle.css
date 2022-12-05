@@ -1,17 +1,49 @@
+
 /* haut/header Debut */
 header{
     display: flex;
-    width: 60%;
-    background: linear-gradient(#e9bf81,#807f7f) ;
+    width: 90%;
+    background: #fcfaf2;
     margin: 0 auto;                 /* Marges externes */
+    margin-bottom: 1%;
     padding: 25px 55px;             /* Marges internes */
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 5px 5px rgb(163, 144, 144);
+    z-index: 6;
 }
 header h1{
     flex:auto;
     text-align: center;
     font-family: system-ui;
-    font-size: 50px;
+    font-size: 40px;
 }
+nav li{
+    list-style-type: none;
+    margin: 18px 0;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    padding: 0.4em;
+}
+nav a.actif{
+    text-decoration: none;
+    color: black;
+    border: outset ;
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgb(105, 91, 181);
+    padding: 0.4em;
+    border-bottom: #807f7f solid;
+}
+nav a.actif:hover{
+    text-decoration: none;
+    color: black;
+    border: inset ;
+}   
 @media screen and (max-width:1024px) {
     header{
         display: block;
@@ -22,6 +54,7 @@ header h1{
     }
 }
 /* haut/header Fin */
+
 
 /* nav Debut */
 nav{

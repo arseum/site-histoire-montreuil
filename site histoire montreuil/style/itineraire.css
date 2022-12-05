@@ -3,34 +3,21 @@
 /* haut/header Debut */
 header{
     display: flex;
-    width: 60%;
-    background: linear-gradient(#e9bf81,#807f7f) ;
+    width: 90%;
+    background: #fcfaf2;
     margin: 0 auto;                 /* Marges externes */
+    margin-bottom: 1%;
     padding: 25px 55px;             /* Marges internes */
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 5px 5px rgb(163, 144, 144);
+    z-index: 6;
 }
 header h1{
     flex:auto;
     text-align: center;
     font-family: system-ui;
-    font-size: 50px;
-}
-@media screen and (max-width:1024px) {
-    header{
-        display: block;
-    }
-    header i{
-        text-align: center;
-        width: 100%;
-    }
-}
-/* haut/header Fin */
-
-
-/* nav Debut */
-nav{
-    width: 7%;
-    position: sticky;
-    top: 20%;
+    font-size: 40px;
 }
 nav li{
     list-style-type: none;
@@ -58,7 +45,26 @@ nav a.actif:hover{
     color: black;
     border: inset ;
 }
-/* nav Fin */
+@media screen and (max-width:1024px) {
+    header{
+        display: block;
+    }
+    header i{
+        text-align: center;
+        width: 100%;
+    }
+}
+/* haut/header Fin */
+
+
+/* nav Debut 
+nav{
+    width: 7%;
+    position: sticky;
+    top: 20%;
+}
+
+nav Fin */
 
 
 /* footer Debut */
@@ -124,8 +130,11 @@ main{
     margin-right: auto;
 }
 main h2{
-    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 30px;
+    text-align: center;
 }
 main p{
     color: #616161;
@@ -141,14 +150,31 @@ main p{
     margin-top: 2%;
     color: #ab7a30;
 }
-/* main Fin */
+main h4{
+    margin-top: 6%;
+    color:#382e96 ;
+    font-size: 25px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.soulignement{
+    text-decoration: none;
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+.soulignement:hover {
+    background-size: 100% 100%;
+}
+/* main Fin */  
 
 
 
 /* image Debut */
 #imgItineraire{
     width: 60%;
-    margin-top: 50px;
+    margin-left: 20%;
 }
 /* image Fin */
 
@@ -156,7 +182,7 @@ main p{
 /* ancre Debut */
 .ancre{
     position:sticky;
-    top: 15%;
+    top: 25%;
     left: 94%;
 }
 /* ancre Fin */
@@ -211,23 +237,41 @@ main p{
 }
 /* blockG Fin */
 
+#hierogliphe{
+    width: 100%;
+    height: 30%;
+}
+
+#iut{
+    width: 99%;
+    margin: 2% auto;
+    box-shadow: 4px 4px 5px rgb(179, 177, 177);
+}
+
 #eglise aside{
     margin-top: 18%;
     height: 300px;
+}
+.ombre0{
+    box-shadow: 20px 15px 5px rgb(117, 116, 116);
+}
+.ombre1{
+    box-shadow: -20px 15px 5px rgb(117, 116, 116);
 }
 #mairie img{
     height: 650px;
     width: 600px;
 }
 #mairie aside{
-    height: 300px;
-    width: 350px;
-    right: 200px;
+    height: 400px;
+    width: 700px;
+    right: 150px;
     background-color: #c9b5a6;
 }
 
 .divPourImage{
     display: flex;
+    margin: 2% 0;
 }
 article img{
     margin-top: 25px;
