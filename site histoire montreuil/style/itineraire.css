@@ -263,6 +263,14 @@ main h4{
     background-color: #b4adec;
 }
 
+#fresque8 img{
+    width: 650px;
+    height: 700px;
+}
+#fresque8 aside{
+    height: 400px;
+}
+
 #parc img{
     width: 600px;
     height: 450px;
@@ -301,6 +309,10 @@ main h4{
 #eglise aside{
     margin-top: 18%;
     height: 300px;
+}
+#eglise img{
+    height: 700px;
+    width: 650px;
 }
 .ombre0{
     box-shadow: 20px 15px 5px rgb(117, 116, 116);

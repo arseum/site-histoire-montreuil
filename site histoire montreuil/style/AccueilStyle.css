@@ -133,6 +133,7 @@ footer {
     left: 38%;
     max-width: 60%;
     z-index: 1;
+    box-shadow: 5px 5px 5px rgb(187, 185, 185);
 }
 #histoireIMG{
     max-width: 35%;
@@ -409,4 +410,8 @@ table{
         width: 70%;
     }
 
+}
+
+.ombre0{
+    box-shadow: 20px 15px 5px rgb(117, 116, 116);
 }
