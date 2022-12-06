@@ -145,6 +145,12 @@ footer {
 }
 /* image Fin */
 
+#titreC{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* titre "decouvre histoire ..." Debut */
 #firstTitle {
     position: absolute;
@@ -284,9 +290,11 @@ footer {
 #block2 h3{
     font-family:'Times New Roman', Times, serif;
     font-size: 22px;
+
 }
 #block2 h2{
     font-family:'Times New Roman', Times, serif;
+    width: 380px;
 }
 #block2 a{
     text-decoration: none;
@@ -376,7 +384,9 @@ td{
     font-size: 20px;
 }
 table{
-    margin: 8% auto;
+    margin-top: 5% ;
+    margin-left: 17%;
+    margin-bottom: 5%;
 }
 .borderTable{
     border-color: #cab641;
@@ -414,4 +424,38 @@ table{
 
 .ombre0{
     box-shadow: 20px 15px 5px rgb(117, 116, 116);
+}
+
+#audioo{
+    display: flex;
+}
+#divaudio{
+    margin-top: 15%;
+    margin-left: 15%;
+    border-radius: 10px;
+    background-color: #e1c1d2;
+    height: 120px;
+    width: 20%;
+    padding-top: 10px;
+    border: double orange 6px;
+
+}
+#divaudio audio{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#divaudio h8{
+    text-align: center;
+    font-size: 24px;
+    margin-left: 10%;
+    
+}
+
+.soulignement{
+    text-decoration: none;
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+.soulignement:hover {
+    background-size: 100% 100%;
 }
