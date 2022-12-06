@@ -436,18 +436,16 @@ table{
     background-color: #e1c1d2;
     height: 120px;
     width: 20%;
-    padding-top: 10px;
     border: double orange 6px;
 
 }
 #divaudio audio{
     margin-left: 10%;
-    margin-top: 5%;
 }
-#divaudio h8{
+#divaudio p{
     text-align: center;
     font-size: 24px;
-    margin-left: 10%;
+    margin-left: 5%;
     
 }
 
